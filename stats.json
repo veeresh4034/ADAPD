@@ -1,0 +1,13 @@
+{
+  "exponents": {
+    "MWPM": 1.701372678211516,
+    "UnionFind": 0.6148367695560277,
+    "ADAPD": 1.1306926874768644
+  },
+  "MWPM_mean_impr": 0.0,
+  "MWPM_mean_spd": 1.0,
+  "UnionFind_mean_impr": -4.272038303519885,
+  "UnionFind_mean_spd": 3.562957658116344,
+  "ADAPD_mean_impr": -3.0033604441926407,
+  "ADAPD_mean_spd": 2.1820558174356885
+}
