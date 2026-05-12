@@ -12,7 +12,7 @@ Saves results to JSON files in the specified output directory.
 
 Usage
 -----
-    # Full simulation (~5–10 minutes, single thread)
+    # Full simulation 
     python scripts/run_simulation.py --output data/
 
     # Quick test with reduced shots (fast, fewer samples)
