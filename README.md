@@ -47,7 +47,6 @@ ADAPD/
 │
 ├── tests/               # Unit and validation tests
 │
-├── paper/               # Manuscript and supplementary material
 │
 ├── requirements.txt
 ├── README.md
