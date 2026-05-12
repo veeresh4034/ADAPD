@@ -5,7 +5,7 @@ Implementations of three syndrome decoders for the rotated surface code:
 
     1. MWPM  — Minimum-Weight Perfect Matching
     2. UF    — Union-Find (greedy nearest-neighbour)
-    3. ADAPD — Adaptive Density-Aware Phase Decoder  [novel, this work]
+    3. ADAPD — Adaptive Density-Aware Phase Decoder  [this work]
 
 All decoders share the same interface:
     correction, latency = decode_*(code, syndrome, p)
@@ -223,7 +223,7 @@ def decode_uf(
 
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 3. ADAPD — Adaptive Density-Aware Phase Decoder  [novel]
+# 3. ADAPD — Adaptive Density-Aware Phase Decoder 
 # ──────────────────────────────────────────────────────────────────────────────
 
 def _cluster_density(
@@ -343,10 +343,7 @@ def decode_adapd(
     latency : float
         Wall-clock decoding time in seconds.
 
-    References
-    ----------
-    Kuruba, Talabattula & Shivaleela, "ADAPD: Adaptive Density-Aware Phase
-    Decoder for QEC on Rotated Surface Codes", Quantum Reports, 2025.
+   
     """
     t0 = time.perf_counter()
     zero = np.zeros(code.n_qubits, dtype=np.int8)
