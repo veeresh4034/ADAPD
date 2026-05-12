@@ -60,8 +60,8 @@ ADAPD/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone (https://github.com/veeresh4034/ADAPD)
+cd ADAPD
 ```
 
 Install dependencies:
@@ -130,19 +130,9 @@ This repository includes:
 
 to support reproducibility of the results presented in the associated manuscript.
 
----
 
-## Citation
 
-If you use this repository in your research, please cite:
 
-```text
-Veeresh Kuruba, Srinivas Talabattula, and E.S. Shivaleela,
-"ADAPD: Adaptive Density-Aware Phase Decoder for Quantum Error Correction on Rotated Surface Codes",
-Quantum Reports, 2026.
-```
-
----
 
 ## License
 
@@ -156,7 +146,7 @@ For questions, collaborations, or research discussions:
 
 Veeresh Kuruba
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: (https://github.com/veeresh4034/ADAPD)
 
 ```
 ```
