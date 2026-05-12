@@ -1,7 +1,7 @@
 """
 run_simulation.py
 -----------------
-Main Monte Carlo simulation runner for the ADAPD paper.
+Main Monte Carlo simulation runner.
 
 Evaluates MWPM, Union-Find, and ADAPD on rotated surface codes with:
     - Distances d ∈ {3, 5, 7, 9}
@@ -12,11 +12,11 @@ Saves results to JSON files in the specified output directory.
 
 Usage
 -----
-    # Full simulation (~5–10 minutes, single thread)
+    # Full simulation 
     python scripts/run_simulation.py --output data/
 
-    # Quick test with reduced shots (fast, fewer samples)
-    python scripts/run_simulation.py --quick --output data/
+  
+    python scripts/run_simulation.py  quick --output data/
 
     # Custom parameters
     python scripts/run_simulation.py \\
